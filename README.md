@@ -3,7 +3,6 @@
 ## Requirements
 
 - Minimum macOS version: 10.14
-- **macOS Catalina 10.15 not yet supported**
 
 ## Setup
 
