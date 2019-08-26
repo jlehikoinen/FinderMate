@@ -12,9 +12,13 @@
 4. Click Save Settings
 5. Enable "CreateTextFile" extension in System Preferences > Extensions
 
+![Settings](settings.png)
+
 ## Usage
 
 Right-click in Finder or on Desktop to open contextual menu and choose "📄 New Text File".
+
+![Contextual menu](menu.png)
 
 If a file exists with same name in target folder, FinderMate extension will create a new file with incrementing number.
 
