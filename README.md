@@ -18,7 +18,7 @@
 
 Right-click in Finder or on Desktop to open contextual menu and choose "📄 New Text File".
 
-![Contextual menu](menu.png)
+![Contextual menu](contextual-menu.png)
 
 If a file exists with same name in target folder, FinderMate extension will create a new file with incrementing number.
 
