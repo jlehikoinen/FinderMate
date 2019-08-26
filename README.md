@@ -3,11 +3,12 @@
 ## Requirements
 
 - Minimum macOS version: 10.14
+- macOS 10.15 not yet supported
 
 ## Setup
 
 1. Open FinderMate app
-2. Edit Default Document Name
+2. Edit New Document Name
 3. Configure the option to open text editor app after creating a new document
 4. Click Save Settings
 5. Enable "CreateTextFile" extension in System Preferences > Extensions
