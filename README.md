@@ -3,21 +3,21 @@
 ## Requirements
 
 - Minimum macOS version: 10.14
-- macOS 10.15 not yet supported
+- **macOS Catalina 10.15 not yet supported**
 
 ## Setup
 
-1. Open FinderMate app
-2. Edit New Document Name
+1. Open **FinderMate** app
+2. Edit **New Document Name**
 3. Configure the option to open text editor app after creating a new document
-4. Click Save Settings
-5. Enable "CreateTextFile" extension in System Preferences > Extensions
+4. Click **Save Settings**
+5. Enable **CreateTextFile** extension in System Preferences > Extensions
 
 ![Settings](settings.png)
 
 ## Usage
 
-Right-click in Finder or on Desktop to open contextual menu and choose "📄 New Text File".
+Right-click in Finder or on Desktop to open contextual menu and choose **📄 New Text File**.
 
 ![Contextual menu](contextual-menu.png)
 
@@ -35,4 +35,4 @@ com.apple.security.temporary-exception.shared-preference.read-write: true
 
 ## Additional information
 
-Tested on macOS 10.14 and macOS 10.15.
+Tested on macOS 10.14.6
