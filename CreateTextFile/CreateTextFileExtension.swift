@@ -12,7 +12,7 @@ import FinderSync
 class FinderSync: FIFinderSync {
     
     // Shared group preferences required
-    let sharedDefaults = UserDefaults.init(suiteName: "FUYA3KFK3M.com.github.jlehikoinen.FinderMate")
+    let sharedDefaults = UserDefaults.init(suiteName: "DAQCN465V5.com.github.jlehikoinen.FinderMate")
     
     // MARK: IBActions
     @IBAction func menuClicked(_ sender: AnyObject?) {

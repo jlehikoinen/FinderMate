@@ -18,7 +18,7 @@ import FinderSync
 class PreferencesVC: NSViewController {
 
     // Shared group preferences required
-    let sharedDefaults = UserDefaults.init(suiteName: "FUYA3KFK3M.com.github.jlehikoinen.FinderMate")
+    let sharedDefaults = UserDefaults.init(suiteName: "DAQCN465V5.com.github.jlehikoinen.FinderMate")
     
     // MARK: IBOutlets
     @IBOutlet weak var openAppCheckbox: NSButton!
