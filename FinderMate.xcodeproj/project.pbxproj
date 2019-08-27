@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		686436762315B48500DC2BC7 /* FileCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686436742315B47000DC2BC7 /* FileCreator.swift */; };
 		687B6DD22315440100365E34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687B6DD12315440100365E34 /* AppDelegate.swift */; };
 		687B6DD62315440200365E34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687B6DD52315440200365E34 /* Assets.xcassets */; };
 		687B6DD92315440200365E34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687B6DD72315440200365E34 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		686436742315B47000DC2BC7 /* FileCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FileCreator.swift; path = "FinderMate Extension/FileCreator.swift"; sourceTree = SOURCE_ROOT; };
 		687B6DCE2315440100365E34 /* FinderMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinderMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		687B6DD12315440100365E34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		687B6DD52315440200365E34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		687B6DE62315445D00365E34 /* FinderMate Extension */ = {
 			isa = PBXGroup;
 			children = (
+				686436742315B47000DC2BC7 /* FileCreator.swift */,
 				687B6DF62315461B00365E34 /* CreateTextFileExtension.swift */,
 				687B6DE92315445D00365E34 /* Info.plist */,
 				687B6DEA2315445D00365E34 /* FinderMate_Extension.entitlements */,
@@ -235,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686436762315B48500DC2BC7 /* FileCreator.swift in Sources */,
 				687B6DF72315461B00365E34 /* CreateTextFileExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

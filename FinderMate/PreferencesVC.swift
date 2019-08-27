@@ -8,6 +8,7 @@
 
 /*
  TODO:
+ - Relaunch app if createFileSucceeded flag var needs reset?
  - Constraints: Fixed width constraints may cause clipping.
  - cfprefsd warning
  */
@@ -98,6 +99,7 @@ class PreferencesVC: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        NSApp.activate(ignoringOtherApps: true)
         setupPreferences()
         setupAlertLabel()
     }
