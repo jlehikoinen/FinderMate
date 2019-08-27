@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>CreateTextFile</string>
+	<string>FinderMate Extension</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -15,9 +15,9 @@
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
-	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.7</string>
+	<string>0.8</string>
 	<key>CFBundleVersion</key>
 	<string>1000</string>
 	<key>LSMinimumSystemVersion</key>

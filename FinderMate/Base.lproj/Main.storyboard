@@ -99,6 +99,7 @@
                     <window key="window" title="Settings" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" tabbingMode="disallowed" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
                         <windowCollectionBehavior key="collectionBehavior" fullScreenNone="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                         <connections>
@@ -113,85 +114,88 @@
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--Preferences-->
+        <!--PreferencesVC-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController title="Preferences" id="XfG-lQ-9wD" customClass="PreferencesVC" customModule="FinderMate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="PreferencesVC" customModule="FinderMate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="157"/>
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="159"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XUg-9D-xgg">
-                                <rect key="frame" x="20" y="90" width="440" height="22"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="VMz-xf-z8K">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="po9-Av-yUC">
-                                <rect key="frame" x="18" y="120" width="456" height="17"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="New Document Name:" id="OkT-h7-Vh1">
-                                    <font key="font" metaFont="system"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="MEM-M6-rJO">
+                                <rect key="frame" x="18" y="122" width="444" height="17"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="New Document Name:" id="BVm-B8-qOA">
+                                    <font key="font" usesAppearanceFont="YES"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="QzE-od-3HG">
-                                <rect key="frame" x="324" y="13" width="142" height="32"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="130" id="iez-l3-Ted"/>
-                                </constraints>
-                                <buttonCell key="cell" type="push" title="Save Settings" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Yk1-Da-Pwx">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="saveButtonClicked:" target="XfG-lQ-9wD" id="zWQ-zX-Nz5"/>
-                                </connections>
-                            </button>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="M1F-11-P8L">
-                                <rect key="frame" x="18" y="59" width="444" height="18"/>
-                                <buttonCell key="cell" type="check" title="Open text editor app (when a new document is created)" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="HSx-b3-4yb">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="OXq-al-Nd6">
-                                <rect key="frame" x="20" y="22" width="304" height="17"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="Finder Extension is disabled" id="MO0-74-Vx2">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="nRK-zH-ja6">
+                                <rect key="frame" x="20" y="20" width="282" height="17"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Finder Extension is disabled" id="5BE-el-ris">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aoU-Ca-gnk">
+                                <rect key="frame" x="20" y="92" width="440" height="22"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="1ZM-Ko-wtQ">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="x2G-3o-r8U">
+                                <rect key="frame" x="302" y="11" width="164" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="152" id="1gb-co-ufS"/>
+                                </constraints>
+                                <buttonCell key="cell" type="push" title="Save Settings" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gnO-iF-KLz">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="saveButtonClicked:" target="XfG-lQ-9wD" id="T45-Or-JsL"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9rl-0A-MIH">
+                                <rect key="frame" x="20" y="57" width="442" height="18"/>
+                                <buttonCell key="cell" type="check" title="Open text editor app (when a new document is created)" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="dSk-28-it4">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="XUg-9D-xgg" firstAttribute="leading" secondItem="M1F-11-P8L" secondAttribute="leading" id="06V-XB-aXO"/>
-                            <constraint firstItem="po9-Av-yUC" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" symbolic="YES" id="224-ep-6lY"/>
-                            <constraint firstItem="po9-Av-yUC" firstAttribute="leading" secondItem="XUg-9D-xgg" secondAttribute="leading" id="2Qo-dr-PLB"/>
-                            <constraint firstAttribute="trailing" secondItem="XUg-9D-xgg" secondAttribute="trailing" constant="20" symbolic="YES" id="2lQ-qZ-02U"/>
-                            <constraint firstItem="QzE-od-3HG" firstAttribute="top" secondItem="M1F-11-P8L" secondAttribute="bottom" constant="20" symbolic="YES" id="Fwy-ye-I3V"/>
-                            <constraint firstItem="OXq-al-Nd6" firstAttribute="centerY" secondItem="QzE-od-3HG" secondAttribute="centerY" id="Gni-FM-jxw"/>
-                            <constraint firstAttribute="trailing" secondItem="po9-Av-yUC" secondAttribute="trailing" constant="8" id="JbM-U4-9lS"/>
-                            <constraint firstItem="M1F-11-P8L" firstAttribute="trailing" secondItem="QzE-od-3HG" secondAttribute="trailing" id="KhK-i9-tLz"/>
-                            <constraint firstItem="OXq-al-Nd6" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="22" id="O4H-Jd-rSm"/>
-                            <constraint firstItem="XUg-9D-xgg" firstAttribute="top" secondItem="po9-Av-yUC" secondAttribute="bottom" constant="8" symbolic="YES" id="TP6-Ja-sc6"/>
-                            <constraint firstAttribute="bottom" secondItem="QzE-od-3HG" secondAttribute="bottom" constant="20" symbolic="YES" id="UKk-GX-EYU"/>
-                            <constraint firstItem="QzE-od-3HG" firstAttribute="leading" secondItem="OXq-al-Nd6" secondAttribute="trailing" constant="8" symbolic="YES" id="aN0-ga-6vj"/>
-                            <constraint firstItem="XUg-9D-xgg" firstAttribute="trailing" secondItem="M1F-11-P8L" secondAttribute="trailing" id="kLH-1x-qI8"/>
-                            <constraint firstItem="po9-Av-yUC" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" symbolic="YES" id="xrY-F3-a9w"/>
+                            <constraint firstItem="9rl-0A-MIH" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="22" id="0p6-0P-ax0"/>
+                            <constraint firstItem="x2G-3o-r8U" firstAttribute="top" secondItem="9rl-0A-MIH" secondAttribute="bottom" constant="20" symbolic="YES" id="4OM-Pj-b0e"/>
+                            <constraint firstAttribute="bottom" secondItem="nRK-zH-ja6" secondAttribute="bottom" constant="20" symbolic="YES" id="92D-em-ZHI"/>
+                            <constraint firstItem="MEM-M6-rJO" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" symbolic="YES" id="DQT-EN-XGC"/>
+                            <constraint firstAttribute="trailing" secondItem="MEM-M6-rJO" secondAttribute="trailing" constant="20" symbolic="YES" id="Hql-mY-ysU"/>
+                            <constraint firstItem="9rl-0A-MIH" firstAttribute="leading" secondItem="nRK-zH-ja6" secondAttribute="leading" id="K4a-25-2Ch"/>
+                            <constraint firstItem="nRK-zH-ja6" firstAttribute="centerY" secondItem="x2G-3o-r8U" secondAttribute="centerY" id="LQw-3Y-2Dx"/>
+                            <constraint firstItem="9rl-0A-MIH" firstAttribute="trailing" secondItem="x2G-3o-r8U" secondAttribute="trailing" id="TYI-PU-Do7"/>
+                            <constraint firstItem="x2G-3o-r8U" firstAttribute="leading" secondItem="nRK-zH-ja6" secondAttribute="trailing" constant="8" symbolic="YES" id="ZqR-UI-kq9"/>
+                            <constraint firstItem="9rl-0A-MIH" firstAttribute="trailing" secondItem="aoU-Ca-gnk" secondAttribute="trailing" id="b9w-lc-jds"/>
+                            <constraint firstItem="aoU-Ca-gnk" firstAttribute="top" secondItem="MEM-M6-rJO" secondAttribute="bottom" constant="8" symbolic="YES" id="cht-JH-8Ke"/>
+                            <constraint firstItem="MEM-M6-rJO" firstAttribute="trailing" secondItem="aoU-Ca-gnk" secondAttribute="trailing" id="f0R-OY-TFF"/>
+                            <constraint firstItem="MEM-M6-rJO" firstAttribute="leading" secondItem="aoU-Ca-gnk" secondAttribute="leading" id="gYw-rO-wNg"/>
+                            <constraint firstItem="MEM-M6-rJO" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" symbolic="YES" id="iQE-QM-OO6"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="alertLabel" destination="OXq-al-Nd6" id="gdB-d3-jAD"/>
-                        <outlet property="defaultDocumentNameField" destination="XUg-9D-xgg" id="bcx-Yq-OzR"/>
-                        <outlet property="openAppCheckbox" destination="M1F-11-P8L" id="dcl-q6-zp6"/>
+                        <outlet property="alertLabel" destination="nRK-zH-ja6" id="ma4-Gd-lC6"/>
+                        <outlet property="defaultDocumentNameField" destination="aoU-Ca-gnk" id="hng-dq-anl"/>
+                        <outlet property="openAppCheckbox" destination="9rl-0A-MIH" id="1ZD-cj-QfQ"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="598.5"/>
+            <point key="canvasLocation" x="75" y="599.5"/>
         </scene>
     </scenes>
 </document>

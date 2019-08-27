@@ -1,6 +1,6 @@
 //
 //  CreateTextFileExtension.swift
-//  CreateTextFile
+//  FinderMate Extension
 //
 //  Created by Janne Lehikoinen on 23/08/2019.
 //  Copyright © 2019 Janne Lehikoinen. All rights reserved.

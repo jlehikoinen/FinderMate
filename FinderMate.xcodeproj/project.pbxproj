@@ -7,33 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		684124F52310432300C0510B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684124F42310432300C0510B /* AppDelegate.swift */; };
-		684124F72310432500C0510B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 684124F62310432500C0510B /* Assets.xcassets */; };
-		684124FA2310432500C0510B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684124F82310432500C0510B /* Main.storyboard */; };
-		684125092310439D00C0510B /* CreateTextFileExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684125082310439D00C0510B /* CreateTextFileExtension.swift */; };
-		6841250E2310439D00C0510B /* CreateTextFile.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 684125062310439D00C0510B /* CreateTextFile.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		68F4E4DE2312748400EEBD2F /* PreferencesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F4E4DD2312748400EEBD2F /* PreferencesVC.swift */; };
-		68F4E4E02312749D00EEBD2F /* AppPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F4E4DF2312749D00EEBD2F /* AppPreferences.swift */; };
+		687B6DD22315440100365E34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687B6DD12315440100365E34 /* AppDelegate.swift */; };
+		687B6DD62315440200365E34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687B6DD52315440200365E34 /* Assets.xcassets */; };
+		687B6DD92315440200365E34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687B6DD72315440200365E34 /* Main.storyboard */; };
+		687B6DED2315445D00365E34 /* FinderMate Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 687B6DE52315445D00365E34 /* FinderMate Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		687B6DF3231545F800365E34 /* AppPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687B6DF2231545F800365E34 /* AppPreferences.swift */; };
+		687B6DF52315460100365E34 /* PreferencesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687B6DF42315460100365E34 /* PreferencesVC.swift */; };
+		687B6DF72315461B00365E34 /* CreateTextFileExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687B6DF62315461B00365E34 /* CreateTextFileExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6841250C2310439D00C0510B /* PBXContainerItemProxy */ = {
+		687B6DEB2315445D00365E34 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 684124E92310432300C0510B /* Project object */;
+			containerPortal = 687B6DC62315440100365E34 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 684125052310439D00C0510B;
-			remoteInfo = CreateTextFile;
+			remoteGlobalIDString = 687B6DE42315445D00365E34;
+			remoteInfo = "FinderMate Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		684125122310439E00C0510B /* Embed App Extensions */ = {
+		687B6DF12315445D00365E34 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				6841250E2310439D00C0510B /* CreateTextFile.appex in Embed App Extensions */,
+				687B6DED2315445D00365E34 /* FinderMate Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,30 +41,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		684124F12310432300C0510B /* FinderMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinderMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		684124F42310432300C0510B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		684124F62310432500C0510B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		684124F92310432500C0510B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		684124FB2310432500C0510B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		684124FC2310432500C0510B /* FinderMate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinderMate.entitlements; sourceTree = "<group>"; };
-		684125062310439D00C0510B /* CreateTextFile.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CreateTextFile.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		684125082310439D00C0510B /* CreateTextFileExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTextFileExtension.swift; sourceTree = "<group>"; };
-		6841250A2310439D00C0510B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6841250B2310439D00C0510B /* CreateTextFile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CreateTextFile.entitlements; sourceTree = "<group>"; };
-		68C0F8602313C00D00D8E13A /* FinderMateApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinderMateApp.entitlements; sourceTree = "<group>"; };
-		68F4E4DD2312748400EEBD2F /* PreferencesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesVC.swift; sourceTree = "<group>"; };
-		68F4E4DF2312749D00EEBD2F /* AppPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPreferences.swift; sourceTree = "<group>"; };
+		687B6DCE2315440100365E34 /* FinderMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinderMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		687B6DD12315440100365E34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		687B6DD52315440200365E34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		687B6DD82315440200365E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		687B6DDA2315440200365E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687B6DDB2315440200365E34 /* FinderMate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinderMate.entitlements; sourceTree = "<group>"; };
+		687B6DE52315445D00365E34 /* FinderMate Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FinderMate Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		687B6DE92315445D00365E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687B6DEA2315445D00365E34 /* FinderMate_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinderMate_Extension.entitlements; sourceTree = "<group>"; };
+		687B6DF2231545F800365E34 /* AppPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppPreferences.swift; sourceTree = "<group>"; };
+		687B6DF42315460100365E34 /* PreferencesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesVC.swift; sourceTree = "<group>"; };
+		687B6DF62315461B00365E34 /* CreateTextFileExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTextFileExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		684124EE2310432300C0510B /* Frameworks */ = {
+		687B6DCB2315440100365E34 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		684125032310439D00C0510B /* Frameworks */ = {
+		687B6DE22315445D00365E34 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,123 +73,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		684124E82310432300C0510B = {
+		687B6DC52315440100365E34 = {
 			isa = PBXGroup;
 			children = (
-				68C0F8602313C00D00D8E13A /* FinderMateApp.entitlements */,
-				684124F32310432300C0510B /* FinderMate */,
-				684125072310439D00C0510B /* CreateTextFile */,
-				684124F22310432300C0510B /* Products */,
+				687B6DD02315440100365E34 /* FinderMate */,
+				687B6DE62315445D00365E34 /* FinderMate Extension */,
+				687B6DCF2315440100365E34 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		684124F22310432300C0510B /* Products */ = {
+		687B6DCF2315440100365E34 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				684124F12310432300C0510B /* FinderMate.app */,
-				684125062310439D00C0510B /* CreateTextFile.appex */,
+				687B6DCE2315440100365E34 /* FinderMate.app */,
+				687B6DE52315445D00365E34 /* FinderMate Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		684124F32310432300C0510B /* FinderMate */ = {
+		687B6DD02315440100365E34 /* FinderMate */ = {
 			isa = PBXGroup;
 			children = (
-				684124F42310432300C0510B /* AppDelegate.swift */,
-				68F4E4DD2312748400EEBD2F /* PreferencesVC.swift */,
-				68F4E4DF2312749D00EEBD2F /* AppPreferences.swift */,
-				684124F62310432500C0510B /* Assets.xcassets */,
-				684124F82310432500C0510B /* Main.storyboard */,
-				684124FB2310432500C0510B /* Info.plist */,
-				684124FC2310432500C0510B /* FinderMate.entitlements */,
+				687B6DD12315440100365E34 /* AppDelegate.swift */,
+				687B6DF2231545F800365E34 /* AppPreferences.swift */,
+				687B6DF42315460100365E34 /* PreferencesVC.swift */,
+				687B6DD52315440200365E34 /* Assets.xcassets */,
+				687B6DD72315440200365E34 /* Main.storyboard */,
+				687B6DDA2315440200365E34 /* Info.plist */,
+				687B6DDB2315440200365E34 /* FinderMate.entitlements */,
 			);
 			path = FinderMate;
 			sourceTree = "<group>";
 		};
-		684125072310439D00C0510B /* CreateTextFile */ = {
+		687B6DE62315445D00365E34 /* FinderMate Extension */ = {
 			isa = PBXGroup;
 			children = (
-				684125082310439D00C0510B /* CreateTextFileExtension.swift */,
-				6841250A2310439D00C0510B /* Info.plist */,
-				6841250B2310439D00C0510B /* CreateTextFile.entitlements */,
+				687B6DF62315461B00365E34 /* CreateTextFileExtension.swift */,
+				687B6DE92315445D00365E34 /* Info.plist */,
+				687B6DEA2315445D00365E34 /* FinderMate_Extension.entitlements */,
 			);
-			path = CreateTextFile;
+			path = "FinderMate Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		684124F02310432300C0510B /* FinderMate */ = {
+		687B6DCD2315440100365E34 /* FinderMate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 684124FF2310432500C0510B /* Build configuration list for PBXNativeTarget "FinderMate" */;
+			buildConfigurationList = 687B6DDE2315440200365E34 /* Build configuration list for PBXNativeTarget "FinderMate" */;
 			buildPhases = (
-				684124ED2310432300C0510B /* Sources */,
-				684124EE2310432300C0510B /* Frameworks */,
-				684124EF2310432300C0510B /* Resources */,
-				684125122310439E00C0510B /* Embed App Extensions */,
+				687B6DCA2315440100365E34 /* Sources */,
+				687B6DCB2315440100365E34 /* Frameworks */,
+				687B6DCC2315440100365E34 /* Resources */,
+				687B6DF12315445D00365E34 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6841250D2310439D00C0510B /* PBXTargetDependency */,
+				687B6DEC2315445D00365E34 /* PBXTargetDependency */,
 			);
 			name = FinderMate;
-			productName = FinderExtension;
-			productReference = 684124F12310432300C0510B /* FinderMate.app */;
+			productName = FinderMate;
+			productReference = 687B6DCE2315440100365E34 /* FinderMate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		684125052310439D00C0510B /* CreateTextFile */ = {
+		687B6DE42315445D00365E34 /* FinderMate Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6841250F2310439E00C0510B /* Build configuration list for PBXNativeTarget "CreateTextFile" */;
+			buildConfigurationList = 687B6DEE2315445D00365E34 /* Build configuration list for PBXNativeTarget "FinderMate Extension" */;
 			buildPhases = (
-				684125022310439D00C0510B /* Sources */,
-				684125032310439D00C0510B /* Frameworks */,
-				684125042310439D00C0510B /* Resources */,
+				687B6DE12315445D00365E34 /* Sources */,
+				687B6DE22315445D00365E34 /* Frameworks */,
+				687B6DE32315445D00365E34 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CreateTextFile;
-			productName = CreateTextFile;
-			productReference = 684125062310439D00C0510B /* CreateTextFile.appex */;
+			name = "FinderMate Extension";
+			productName = "FinderMate Extension";
+			productReference = 687B6DE52315445D00365E34 /* FinderMate Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		684124E92310432300C0510B /* Project object */ = {
+		687B6DC62315440100365E34 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Janne Lehikoinen";
 				TargetAttributes = {
-					684124F02310432300C0510B = {
-						CreatedOnToolsVersion = 11.0;
+					687B6DCD2315440100365E34 = {
+						CreatedOnToolsVersion = 10.3;
 						SystemCapabilities = {
-							com.apple.ApplicationGroups.Mac = {
-								enabled = 1;
-							};
-							com.apple.Sandbox = {
+							com.apple.HardenedRuntime = {
 								enabled = 1;
 							};
 						};
 					};
-					684125052310439D00C0510B = {
-						CreatedOnToolsVersion = 11.0;
+					687B6DE42315445D00365E34 = {
+						CreatedOnToolsVersion = 10.3;
 						SystemCapabilities = {
-							com.apple.ApplicationGroups.Mac = {
-								enabled = 1;
-							};
-							com.apple.Sandbox = {
+							com.apple.HardenedRuntime = {
 								enabled = 1;
 							};
 						};
 					};
 				};
 			};
-			buildConfigurationList = 684124EC2310432300C0510B /* Build configuration list for PBXProject "FinderMate" */;
+			buildConfigurationList = 687B6DC92315440100365E34 /* Build configuration list for PBXProject "FinderMate" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -198,28 +190,28 @@
 				en,
 				Base,
 			);
-			mainGroup = 684124E82310432300C0510B;
-			productRefGroup = 684124F22310432300C0510B /* Products */;
+			mainGroup = 687B6DC52315440100365E34;
+			productRefGroup = 687B6DCF2315440100365E34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				684124F02310432300C0510B /* FinderMate */,
-				684125052310439D00C0510B /* CreateTextFile */,
+				687B6DCD2315440100365E34 /* FinderMate */,
+				687B6DE42315445D00365E34 /* FinderMate Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		684124EF2310432300C0510B /* Resources */ = {
+		687B6DCC2315440100365E34 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				684124F72310432500C0510B /* Assets.xcassets in Resources */,
-				684124FA2310432500C0510B /* Main.storyboard in Resources */,
+				687B6DD62315440200365E34 /* Assets.xcassets in Resources */,
+				687B6DD92315440200365E34 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		684125042310439D00C0510B /* Resources */ = {
+		687B6DE32315445D00365E34 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -229,39 +221,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		684124ED2310432300C0510B /* Sources */ = {
+		687B6DCA2315440100365E34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				684124F52310432300C0510B /* AppDelegate.swift in Sources */,
-				68F4E4E02312749D00EEBD2F /* AppPreferences.swift in Sources */,
-				68F4E4DE2312748400EEBD2F /* PreferencesVC.swift in Sources */,
+				687B6DF3231545F800365E34 /* AppPreferences.swift in Sources */,
+				687B6DF52315460100365E34 /* PreferencesVC.swift in Sources */,
+				687B6DD22315440100365E34 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		684125022310439D00C0510B /* Sources */ = {
+		687B6DE12315445D00365E34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				684125092310439D00C0510B /* CreateTextFileExtension.swift in Sources */,
+				687B6DF72315461B00365E34 /* CreateTextFileExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6841250D2310439D00C0510B /* PBXTargetDependency */ = {
+		687B6DEC2315445D00365E34 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 684125052310439D00C0510B /* CreateTextFile */;
-			targetProxy = 6841250C2310439D00C0510B /* PBXContainerItemProxy */;
+			target = 687B6DE42315445D00365E34 /* FinderMate Extension */;
+			targetProxy = 687B6DEB2315445D00365E34 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		684124F82310432500C0510B /* Main.storyboard */ = {
+		687B6DD72315440200365E34 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				684124F92310432500C0510B /* Base */,
+				687B6DD82315440200365E34 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -269,7 +261,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		684124FD2310432500C0510B /* Debug */ = {
+		687B6DDC2315440200365E34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,6 +293,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -329,7 +322,7 @@
 			};
 			name = Debug;
 		};
-		684124FE2310432500C0510B /* Release */ = {
+		687B6DDD2315440200365E34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -361,6 +354,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -382,18 +376,18 @@
 			};
 			name = Release;
 		};
-		684125002310432500C0510B /* Debug */ = {
+		687B6DDF2315440200365E34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = FinderMateApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FinderMate/FinderMate.entitlements;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = DAQCN465V5;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/FinderMate/Info.plist";
+				INFOPLIST_FILE = FinderMate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -405,18 +399,18 @@
 			};
 			name = Debug;
 		};
-		684125012310432500C0510B /* Release */ = {
+		687B6DE02315440200365E34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = FinderMateApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = FinderMate/FinderMate.entitlements;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = DAQCN465V5;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/FinderMate/Info.plist";
+				INFOPLIST_FILE = FinderMate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -428,22 +422,22 @@
 			};
 			name = Release;
 		};
-		684125102310439E00C0510B /* Debug */ = {
+		687B6DEF2315445D00365E34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = CreateTextFile/CreateTextFile.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "FinderMate Extension/FinderMate_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = DAQCN465V5;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = CreateTextFile/Info.plist;
+				INFOPLIST_FILE = "FinderMate Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.jlehikoinen.FinderMate.CreateTextFile;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.jlehikoinen.FinderMate.FinderMate-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -451,22 +445,22 @@
 			};
 			name = Debug;
 		};
-		684125112310439E00C0510B /* Release */ = {
+		687B6DF02315445D00365E34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = CreateTextFile/CreateTextFile.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "FinderMate Extension/FinderMate_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = DAQCN465V5;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = CreateTextFile/Info.plist;
+				INFOPLIST_FILE = "FinderMate Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.jlehikoinen.FinderMate.CreateTextFile;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.jlehikoinen.FinderMate.FinderMate-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -477,34 +471,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		684124EC2310432300C0510B /* Build configuration list for PBXProject "FinderMate" */ = {
+		687B6DC92315440100365E34 /* Build configuration list for PBXProject "FinderMate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				684124FD2310432500C0510B /* Debug */,
-				684124FE2310432500C0510B /* Release */,
+				687B6DDC2315440200365E34 /* Debug */,
+				687B6DDD2315440200365E34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		684124FF2310432500C0510B /* Build configuration list for PBXNativeTarget "FinderMate" */ = {
+		687B6DDE2315440200365E34 /* Build configuration list for PBXNativeTarget "FinderMate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				684125002310432500C0510B /* Debug */,
-				684125012310432500C0510B /* Release */,
+				687B6DDF2315440200365E34 /* Debug */,
+				687B6DE02315440200365E34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6841250F2310439E00C0510B /* Build configuration list for PBXNativeTarget "CreateTextFile" */ = {
+		687B6DEE2315445D00365E34 /* Build configuration list for PBXNativeTarget "FinderMate Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				684125102310439E00C0510B /* Debug */,
-				684125112310439E00C0510B /* Release */,
+				687B6DEF2315445D00365E34 /* Debug */,
+				687B6DF02315445D00365E34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 684124E92310432300C0510B /* Project object */;
+	rootObject = 687B6DC62315440100365E34 /* Project object */;
 }
