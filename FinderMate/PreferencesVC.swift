@@ -6,12 +6,16 @@
 //  Copyright © 2019 Janne Lehikoinen. All rights reserved.
 //
 
+ // MARK: TODO
 /*
- TODO:
- - Relaunch app if createFileSucceeded flag var needs reset?
  - Constraints: Fixed width constraints may cause clipping.
  - cfprefsd warning
- */
+*/
+
+ // MARK: NOTES
+/*
+  - Relaunch FinderMate app if text editor app is not opening although the "open" checkbox is enabled in settings. createFileSucceeded flag var can be reset by relaunching the app.
+*/
 
 import Cocoa
 import FinderSync
@@ -81,7 +85,6 @@ class PreferencesVC: NSViewController {
         } else {
             alertLabel.isHidden = false
         }
-        
     }
     
     func refreshUI() {
@@ -99,7 +102,6 @@ class PreferencesVC: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        NSApp.activate(ignoringOtherApps: true)
         setupPreferences()
         setupAlertLabel()
     }
