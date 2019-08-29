@@ -10,7 +10,7 @@
 2. Edit **New Document Name**
 3. Configure the option to open text editor app after creating a new document
 4. Click **Save Settings**
-5. Enable **CreateTextFile** extension in System Preferences > Extensions
+5. Enable **FinderMate Extension** in System Preferences > Extensions
 
 ![Settings](settings.png)
 
@@ -20,7 +20,7 @@ Right-click in Finder or on Desktop to open contextual menu and choose **📄 Ne
 
 ![Contextual menu](contextual-menu.png)
 
-> If a file exists with same name in target folder, FinderMate extension will create a new file with incrementing number.
+> **If a file exists with same name in target folder, FinderMate extension will create a new file with incrementing number**.
 
 ## Entitlements
 
