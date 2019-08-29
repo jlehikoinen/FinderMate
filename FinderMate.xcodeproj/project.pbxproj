@@ -173,12 +173,18 @@
 							com.apple.HardenedRuntime = {
 								enabled = 1;
 							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
 						};
 					};
 					687B6DE42315445D00365E34 = {
 						CreatedOnToolsVersion = 10.3;
 						SystemCapabilities = {
 							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
 								enabled = 1;
 							};
 						};

@@ -24,7 +24,15 @@ Right-click in Finder or on Desktop to open contextual menu and choose **📄 Ne
 
 ## Entitlements
 
-FinderMate is sandboxed, but it has a few extra entitlements:
+FinderMate is sandboxed, but the host app and extension require few extra entitlements.
+
+App:
+
+```
+com.apple.security.application-groups: $(TeamIdentifierPrefix)com.github.jlehikoinen.FinderMate
+```
+
+Extension:
 
 ```
 com.apple.security.application-groups: $(TeamIdentifierPrefix)com.github.jlehikoinen.FinderMate
