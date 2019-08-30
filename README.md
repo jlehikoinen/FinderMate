@@ -12,13 +12,13 @@
 4. Click **Save Settings**
 5. Enable **FinderMate Extension** in System Preferences > Extensions
 
-![Settings](settings.png)
+![Settings](screenshots/settings.png)
 
 ## Usage
 
 Right-click in Finder or on Desktop to open contextual menu and choose **📄 New Text File**.
 
-![Contextual menu](contextual-menu.png)
+![Contextual menu](screenshots/settings.png)
 
 > **If a file exists with same name in target folder, FinderMate extension will create a new file with incrementing number**.
 
